@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Redux RTK Query vs TanStack React Query</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./src/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        background-color: #121212;
+      }
+      #splashScreen {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 36px;
+        font-size: 36px;
+        line-height: 40px;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        color: #ffffff;
+      }
+      #splashScreen > div {
+        display: flex;
+        align-items: center;
+      }
+      #splashScreen > div:nth-child(1),
+      #splashScreen > div:nth-child(3) {
+        flex: 1;
+      }
+      #splashScreen > div:nth-child(1) {
+        justify-content: flex-end;
+      }
+      #splashScreen > div:nth-child(2) {
+        flex: 0;
+        text-align: center;
+      }
+      #splashScreen > div:nth-child(3) {
+        justify-content: flex-start;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="splashScreen">
+      <div>Redux RTK Query</div>
+      <div>vs</div>
+      <div>TanStack React Query</div>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="./src/index.tsx"></script>
+  </body>
+</html>

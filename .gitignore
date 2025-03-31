@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+tmp/
+yarn-error.log
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+.vite/
+__snapshots__/
+.DS_Store
